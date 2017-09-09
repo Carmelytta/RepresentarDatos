@@ -1,5 +1,7 @@
-from flask import Flask 
+from flask import Flask
 app = Flask(__name__)
+
+
 @app.route("/") # Aqui es para poner la url que quiero, la lista de datos de temperatura
 def hello():
 	return "Hello World"
